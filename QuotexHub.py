@@ -134,7 +134,7 @@ async def send_to_channel_callback(update: Update, context: ContextTypes.DEFAULT
         url="https://broker-qx.pro/sign-up/?lid=1179650"
     )
     reply_markup = InlineKeyboardMarkup([[link_btn]])
-    CHANNEL_ID = -1002493166527  # Update to your channel ID
+    CHANNEL_ID = -1002291654577  # Update to your channel ID
 
     await bot.send_message(
         chat_id=CHANNEL_ID,
